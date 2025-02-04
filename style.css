@@ -17,6 +17,29 @@
   box-sizing: border-box;
 }
 
+.section-image {
+  max-width: 550px;
+  margin: 2rem auto;
+  display: block; /* faz com que a imagem ocupe toda a largura disponível */
+  border-radius: 10px; /* adiciona cantos arredondados */
+}
+
+p,
+li {
+  margin-top: 0.7rem;
+  color: var(--text-light);
+}
+
+p strong,
+li strong {
+  margin-top: 1rem;
+  color: var(--text-dark);
+}
+
+li {
+  margin-left: 1rem;
+}
+
 .btn {
   outline: none;
   border: none;
@@ -31,6 +54,7 @@
   transition: 0.3s;
   border-radius: 5px;
   cursor: pointer;
+  max-width: fit-content;
 }
 
 .btn:hover {
